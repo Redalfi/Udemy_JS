@@ -392,13 +392,42 @@
 
             // TASK
 
-let numberOfFilms;
+// let numberOfFilms;
 
-function start() {
-    numberOfFilms = +prompt("How many films you watched?", "");  
+// function start() {
+//     numberOfFilms = +prompt("How many films you watched?", "");  
 
-    while (numberOfFilms == "" || numberOfFilms == null || isNaN(numberOfFilms)) {
-        numberOfFilms = +prompt("How many films you watched?", "");  
+//     while (numberOfFilms == "" || numberOfFilms == null || isNaN(numberOfFilms)) {
+//         numberOfFilms = +prompt("How many films you watched?", "");  
+//     }
+// }
+// start();
+
+// function first() {
+//     setTimeout(function() {
+//         console.log(1);
+//     }, 500)
+// }
+
+// function second() {
+//     console.log(2);
+// }
+
+// first();
+// second();
+
+const options = {
+    name : "Karim",
+    age : 19,
+    height : 178,
+    phone : {
+        color : "black",
+        mark : "Iphone 7"
     }
-}
-start();
+    
+};
+
+console.log(options ["phone"]["mark"]);
+
+
+
